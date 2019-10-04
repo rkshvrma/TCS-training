@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='mystyle.css' type='text/css' />
+<script src="validation.js"></script>
+</head>
+<body onload="document.registration.firstname.focus();">
+<h1>Registration Form</h1>
+ 
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="firstname">First Name:</label></li>
+<li><input type="text" name="firstname" size="20" /></li>
+<li><label for="middlename">Middle Name:</label></li>
+<li><input type="text" name="middlename" size="20" /></li>
+<li><label for="lastname">Last Name:</label></li>
+<li><input type="text" name="lastname" size="20" /></li>
+<li><label id="gender">Gender:</label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label for="DOB">DOB:</label></li>
+<li><input type="text" name="DOB" size="20" /></li> 
+<li><label for="category" >Category:</label></li>
+<li><select name="category"> 
+<option selected="" value="Default"  >Please select a category</option>
+<option value="regular">Regular</option>
+<option value="new">New</option>
+</select></li>
+<li><label for="street1">Street 1:</label></li>
+<li><input type="text" name="street1" size="20" /></li>
+<li><label for="street2">Street 2:</label></li>
+<li><input type="text" name="street2" size="20" /></li>
+<li><label for="city">city:</label></li>
+<li><input type="text" name="city" size="20" /></li>
+<li><label for="state">state:</label></li>
+<li><input type="text" name="state" size="20" /></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="20" /></li>
+<li><label for="phone">Phone number</label></li>
+<li><input type="text" name="phone" size="20" /></li>
+
+<li><input type="submit" name="submit" value="Register" /></li>
+<li><input type="button" name="submit" value="Reset" /></li>
+</ul>
+</form>
+</body>
+</html>

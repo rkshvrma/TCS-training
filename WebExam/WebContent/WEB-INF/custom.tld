@@ -1,0 +1,59 @@
+<taglib>
+   <tlib-version>1.2</tlib-version>
+   <jsp-version>4.0</jsp-version>
+   <short-name>Custom Tags</short-name>
+   
+   <tag>
+      <name>UserLogout</name>
+      <tag-class>com.tags.UserLogoutTag</tag-class>
+      <body-content></body-content>
+   </tag>
+   
+   <tag>
+      <name>UserLoginFailed</name>
+      <tag-class>com.tags.UserLoginFailedTag</tag-class>
+      <body-content></body-content>
+      
+      <attribute>
+        <name>failed</name>
+        <required>true</required>
+        <type>java.util.Boolean</type>
+        <fragment>false</fragment>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+   
+   <tag>
+      <name>CreateTourOutput</name>
+      <tag-class>com.tags.CreateTourOutputTag</tag-class>
+      <body-content></body-content>
+      
+      <attribute>
+        <name>added</name>
+        <required>true</required>
+        <type>java.util.Boolean</type>
+        <fragment>false</fragment>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+   
+   <tag>
+      <name>TourSearchOutput</name>
+      <tag-class>com.tags.TourSearchOutputTag</tag-class>
+      <body-content></body-content>
+      
+      <attribute>
+        <name>results</name>
+        <required>true</required>
+        <type>java.util.ArrayList</type>
+        <fragment>false</fragment>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+   
+   <tag>
+      <name>AllTours</name>
+      <tag-class>com.tags.AllToursTag</tag-class>
+      <body-content></body-content>
+   </tag>
+</taglib>

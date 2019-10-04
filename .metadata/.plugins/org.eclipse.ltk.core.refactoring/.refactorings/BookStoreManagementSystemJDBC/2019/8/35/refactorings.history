@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BookStoreManagementSystemJDBC/BookStoreManagementSystem&apos; to &apos;BookStoreManagementSystem11&apos;" description="Rename resource &apos;BookStoreManagementSystem&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="BookStoreManagementSystem" name="BookStoreManagementSystem11" stamp="1567112427282" updateReferences="true"/>
+</session>

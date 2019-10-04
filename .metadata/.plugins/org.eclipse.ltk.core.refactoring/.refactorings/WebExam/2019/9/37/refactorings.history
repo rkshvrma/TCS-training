@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;booksDeleted&apos; in &apos;com.dao.DriveDataOracle.cancelBooking(...)&apos; to &apos;driveCancelled&apos;&#x0D;&#x0A;- Original project: &apos;WebExam&apos;&#x0D;&#x0A;- Original element: &apos;com.dao.DriveDataOracle.cancelBooking(int).booksDeleted&apos;&#x0D;&#x0A;- Renamed element: &apos;booksDeleted&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;booksDeleted&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.dao{DriveDataOracle.java[DriveDataOracle~cancelBooking~I@booksDeleted!1511!1531!1515!1526!I!0!false" name="driveCancelled" references="true" stamp="1568136185932" version="1.0"/>
+</session>

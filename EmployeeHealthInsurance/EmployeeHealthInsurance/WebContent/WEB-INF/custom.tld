@@ -1,0 +1,7 @@
+<taglib>
+   <tlib-version>1.2</tlib-version>
+   <jsp-version>4.0</jsp-version>
+   <short-name>Custom Tags</short-name>
+   
+   
+</taglib>

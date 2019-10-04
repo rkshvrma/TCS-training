@@ -1,0 +1,73 @@
+<taglib>
+   <tlib-version>1.2</tlib-version>
+   <jsp-version>4.0</jsp-version>
+   <short-name>Custom Tags</short-name>
+   
+   <tag>
+      <name>BookCountByCategory</name>
+      <tag-class>com.tags.BookCategoryCountTag</tag-class>
+      <body-content></body-content>
+   </tag>
+   
+   <tag>
+      <name>AllBooksByCategory</name>
+      <tag-class>com.tags.AllBooksByCategoryTag</tag-class>
+      <body-content></body-content>
+   </tag>
+   
+   <tag>
+      <name>BookAddedOutput</name>
+      <tag-class>com.tags.BookAddedOutputTag</tag-class>
+      <body-content></body-content>
+      
+      <attribute>
+        <name>added</name>
+        <required>true</required>
+        <type>java.util.Boolean</type>
+        <fragment>false</fragment>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+   
+   <tag>
+      <name>BookDeletedOutput</name>
+      <tag-class>com.tags.BookDeletedOutputTag</tag-class>
+      <body-content></body-content>
+      
+      <attribute>
+        <name>deleted</name>
+        <required>true</required>
+        <type>java.util.Boolean</type>
+        <fragment>false</fragment>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+   
+   <tag>
+      <name>BookUpdatedOutput</name>
+      <tag-class>com.tags.BookUpdatedOutputTag</tag-class>
+      <body-content></body-content>
+      
+      <attribute>
+        <name>updated</name>
+        <required>true</required>
+        <type>java.util.Boolean</type>
+        <fragment>false</fragment>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+   
+   <tag>
+      <name>BookSearchOutput</name>
+      <tag-class>com.tags.BookSearchOutputTag</tag-class>
+      <body-content></body-content>
+      
+      <attribute>
+        <name>results</name>
+        <required>true</required>
+        <type>java.util.ArrayList</type>
+        <fragment>false</fragment>
+        <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+</taglib>
